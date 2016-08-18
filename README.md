@@ -1,4 +1,4 @@
-# FCC-Pomodoro-Timer
+# Pomodoro-Timer
 Free Code Camp project to create a pomodoro timer. <br>
 
 This was created at CodePen.io. <a href="http://codepen.io/domarp/pen/zBbqzr">Click here</a> to check out the Pen. 
