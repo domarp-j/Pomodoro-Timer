@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Project 8 - Pomodoro Clock</title>
+    <title>Pomodoro Clock</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=0.75">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--------------------------------------------------------------------------------------------------------------------------->
+
+<!--Font Awesome 4.6.1-->
+<!--Google Fonts - Droid Sans Mono-->
+
+<body>
+
+  <div class="container">
+    <!--SESSION & BREAK-->
+    <div class="row">
+      <!--SESSION LENGTH SETTING-->
+      <div class="col-sm-2 col-md-3"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+        <button id="sessionButton" type="button" class="header-button btn btn-primary">Session</button>
+        <div class="row">
+          <div class="col-xs-3 minus-sign">
+            <button id="sessionDec" type="button" class="minus-button btn btn-primary"><i class="fa fa-minus"></i></button>
+          </div>
+          <div class="col-xs-6">
+            <h1 id="sessionTime" class="duration">25</h1>
+          </div>
+          <div class="col-xs-3 plus-sign">
+            <button id="sessionInc" type="button" class="plus-button btn btn-primary"><i class="fa fa-plus"></i></button>
+          </div>
+        </div>
+      </div>
+      <!--BREAK LENGTH SETTING-->
+      <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+        <button id="breakButton" type="button" class="header-button btn btn-primary">Break</button>
+        <div class="row">
+          <div class="col-xs-3 minus-sign">
+            <button id="breakDec" type="button" class="minus-button btn btn-primary"><i class="fa fa-minus"></i></button>
+          </div>
+          <div class="col-xs-6">
+            <h1 id="breakTime" class="duration">05</h1>
+          </div>
+          <div class="col-xs-3 plus-sign">
+            <button id="breakInc" type="button" class="plus-button btn btn-primary"><i class="fa fa-plus"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-3"></div>
+    </div>
+    <!--TIMER-->
+    <div class="circle text-center">
+      <!--TIMER-->
+      <h1 id="timer"><span id="timerMin">25</span>:<span id="timerSec">00</span></h1>
+      <!--PAUSE-->
+      <button id="playPause" type="button" class="timer-button btn btn-primary"><i class="fa fa-play"></i></button>
+      <!--RESET-->
+      <button id="reset" type="button" class="timer-button btn btn-primary"><i class="fa fa-refresh"></i></button>
+    </div>
+  </div>
+
+</body>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

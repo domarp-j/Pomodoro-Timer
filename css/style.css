@@ -1,0 +1,76 @@
+/********************************************************/
+body {
+  background-color: #ECECEC;
+  margin-top: 50px;
+}
+
+.header-button {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 140%;
+  width: 125px;
+  height: 45px;
+  margin-bottom: -10px;
+  border: none;
+}
+
+#breakButton {
+  background-color: #ECECEC;
+  color: #337AB7;
+}
+
+.minus-sign, .plus-sign {
+  margin-top: 38px;
+}
+
+.minus-sign {
+  padding-left: 28px;
+}
+
+.plus-sign {
+  margin-left: -28px;
+}
+
+.minus-button, .plus-button {
+  background: none;
+  border: none;
+}
+.minus-button:hover, .minus-button:focus, .minus-button:active, .minus-button:active:focus, .plus-button:hover, .plus-button:focus, .plus-button:active, .plus-button:active:focus {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.duration {
+  font-size: 500%;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+.fa-minus, .fa-plus {
+  font-size: 280%;
+  color: #337AB7;
+}
+
+.circle {
+  background-color: #DDDDDD;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#timer {
+  padding-top: 115px;
+  font-size: 750%;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+.timer-button {
+  width: 55px;
+  height: 45px;
+  border: none;
+}
+
+.fa-play, .fa-pause, .fa-refresh {
+  font-size: 21px;
+}
